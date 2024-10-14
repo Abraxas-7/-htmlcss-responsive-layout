@@ -1,0 +1,167 @@
+/*--------------- Generals ---------------*/
+
+/*---------- Reset ----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------- Custum properties ---------*/
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #d9d9d9;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+/*---------- Scroll ----------*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*---------- Debug ----------*/
+.debug{
+    border: 1px solid red;
+}
+
+/*---------- Text formatting ----------*/
+body{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    background-color: var(--color-bg-color);
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    color: var(--color-contrast);
+    text-shadow: 1px 1px gray;
+    font-size: 2.4em;
+}
+
+h5{
+    color: var(--color-white);
+    padding: 10px;
+    font-size: 1em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*---------- Button ----------*/
+.button{
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 50px;
+}
+
+/*---------- Container ----------*/
+.container{
+    margin: 15px;
+}
+
+/*---------- Utility flex ----------*/
+.d-flex{
+    display: flex;
+}
+
+.j-space-between{
+    justify-content: space-between;
+}
+
+.j-space-around{
+    justify-content: space-around;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-end{
+    justify-content: end;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.a-start{
+    align-items: flex-start;
+}
+
+.a-stretch{
+    align-items: stretch;
+}
+
+.d-column{
+    flex-direction: column;
+}
+
+.d-row{
+    flex-direction: row;
+}
+
+.d-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+/*---------- Display ---------*/
+.d-none{
+    display: none;
+}
+
+
+/*--------------- Index --------------*/
+
+/*---------- Header ---------*/
+header{
+    font-family: 'Nerko One', 'Helvetica Neue', sans-serif;
+    background-color: var(--color-white);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+/*---------- Main ---------*/
+.card-content{
+    background-color: var(--color-white);
+    padding: 25px;
+}
+
+.social{
+    margin: 20px 0;
+}
+
+
+/*---------- Footer ---------*/
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-bg-color);
+    padding: 2em;
+}
+
+footer li{
+    padding: 10px 10px;
+}
+
+footer a{
+    color: var(--color-bg-color);
+}
+
+/*--------------- Responsive ---------------*/
